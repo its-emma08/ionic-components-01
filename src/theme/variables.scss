@@ -1,2 +1,76 @@
 // For information on how to create your own theme, please see:
 // http://ionicframework.com/docs/theming/
+
+
+:root {
+    /* Colores principales para modo claro */
+    --ion-color-primary: #e1306c; 
+    --ion-color-secondary: #fdc02f; 
+    --ion-color-tertiary: #833ab4; 
+    --ion-color-light: #ffffff; 
+    --ion-color-dark: #262626; 
+  
+    /* Fondos y textos */
+    --ion-background-color: #fafafa; 
+    --ion-text-color: #262626; 
+  
+    /* Sombras */
+    --ion-color-primary-tint: #f45d90;
+    --ion-color-primary-shade: #b62859;
+  
+    /* Botones */
+    --ion-button-background: linear-gradient(45deg, #feda75, #fa7e1e, #d62976, #962fbf, #4f5bd5);
+    --ion-button-color: #ffffff;
+  
+    /* Inputs */
+    --ion-input-background: #ffffff;
+    --ion-input-color: #262626;
+  
+    /* Tarjetas */
+    --ion-card-background: #ffffff;
+    --ion-card-color: #262626;
+  
+    /* Bordes redondeados */
+    --ion-border-radius: 16px;
+  
+    /* Encabezados */
+    --ion-header-background: linear-gradient(45deg, #feda75, #fa7e1e, #d62976, #962fbf, #4f5bd5);
+  }
+  
+  @media (prefers-color-scheme: dark) {
+    :root {
+      /* Colores principales para modo oscuro */
+      --ion-color-primary: #e1306c; 
+      --ion-color-secondary: #fdc02f; 
+      --ion-color-tertiary: #833ab4; 
+      --ion-color-light: #121212; 
+      --ion-color-dark: #ffffff; 
+  
+      /* Fondos y textos */
+      --ion-background-color: #121212; 
+      --ion-text-color: #ffffff; 
+      
+      /* Sombras */
+      --ion-color-primary-tint: #f45d90;
+      --ion-color-primary-shade: #b62859;
+  
+      /* Botones */
+      --ion-button-background: linear-gradient(45deg, #feda75, #fa7e1e, #d62976, #962fbf, #4f5bd5);
+      --ion-button-color: #ffffff;
+  
+      /* Inputs */
+      --ion-input-background: #1e1e1e;
+      --ion-input-color: #ffffff;
+  
+      /* Tarjetas */
+      --ion-card-background: #1e1e1e;
+      --ion-card-color: #ffffff;
+  
+      /* Bordes redondeados */
+      --ion-border-radius: 16px;
+  
+      /* Encabezados */
+      --ion-header-background: linear-gradient(45deg, #833ab4, #962fbf, #d62976, #fa7e1e, #feda75);
+    }
+  }
+  

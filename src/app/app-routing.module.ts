@@ -31,6 +31,10 @@ const routes: Routes = [
     path: 'back-button',
     loadChildren: () => import('./back-button/back-button.module').then( m => m.BackButtonPageModule)
   },
+  {
+    path: 'registro',
+    loadChildren: () => import('./registro/registro.module').then( m => m.RegistroPageModule)
+  },
 ];
 
 @NgModule({

@@ -1,0 +1,53 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>registro</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+
+<ion-header collapse="condense">
+  <ion-toolbar>
+    <ion-title size="large">registro</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+
+  <form #bodoque="ngForm" (ngSubmit)="(bodoque)">
+
+    <ion-list>
+        <ion-item>
+          <ion-input name="name" label="Nombre" label-placement="floating" fill="outline" placeholder="Ingresa tu nombre"></ion-input>
+        </ion-item>
+  
+        <ion-item>
+          <ion-input name="lastName" label="Apellidos" label-placement="floating" fill="outline" placeholder="Ingresa tus apellidos"></ion-input>
+        </ion-item>
+      <ion-item>
+          <ion-input name="cellphone" label="Celular" label-placement="floating" fill="outline" type="number" placeholder="Ingresa tu numero de celular"></ion-input>
+        </ion-item>
+        
+        <ion-item>
+          <ion-input name="email" label="Correo" label-placement="floating" fill="outline" type="email" placeholder="Ingresa tu email"></ion-input>        
+        </ion-item>
+    
+        <ion-item>
+          <ion-input name="password" label="Contraseña" label-placement="floating" fill="outline" type="password" placeholder="Ingresa tu contraseña"></ion-input>
+        </ion-item>
+       
+        <ion-item>
+          <ion-input name="confpassword" label="Confirma tu contraseña" label-placement="floating" fill="outline" type="password" placeholder="Confirma tu contraseña"></ion-input>
+        </ion-item>
+        
+        <ion-item>
+          <ion-input name="telephone" label="Numero de teléfono" label-placement="floating" fill="outline" type="tel" placeholder="Ingresa tu numero de telefono"></ion-input>
+        </ion-item>
+        
+        <ion-item>
+          <ion-input name="direction" label="Dirección" label-placement="floating" fill="outline" type="tel" placeholder="Ingresa tu direccion"></ion-input>
+        </ion-item>
+      </ion-list>
+
+      <ion-button type="submit" color="light">Enviar</ion-button>
+  </form>
+</ion-content>

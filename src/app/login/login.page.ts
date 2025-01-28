@@ -28,7 +28,7 @@ export class LoginPage implements OnInit {
     console.log(form.value);
 
     //validar formulario
-    console.log('valid: ', form.valid)
+    console.log('valid: ', form.valid);
 
     if (form.invalid){
       console.log("Todos los campos son requeridos");
